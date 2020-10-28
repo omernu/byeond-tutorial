@@ -9,4 +9,4 @@ cd /vagrant
 pipenv sync
 # run our app. Nohup and "&" are used to let the setup script finish
 # while our app stays up. The app logs will be collected in nohup.out
-nohup pipenv run python 3 manage.py runserver 0:8000 &
+nohup pipenv run python 3 ./manage.py runserver 0:8000 &
