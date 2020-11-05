@@ -2,12 +2,12 @@ name: flake8
 on: pull_request
 jobs:
   flake8:
-    - name: check code with Flake8
+    name: check code with Flake8
         run: dnf install -y pipenv GIT
-    - name: checkout code
+    name: checkout code
         uses: actions/checkout@v2
-    - name: Setup enviornment
+    name: Setup enviornment
         run: pipenv sync --dev
-    - name: Run Flake8
+    name: Run Flake8
         run: pipenv run flake8 --max-line-length 120
 		
