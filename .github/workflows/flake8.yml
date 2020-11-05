@@ -3,7 +3,7 @@ on: pull_request
 jobs:
   flake8:
     - name: check code with Flake8
-        run: dnf install -y pipenv git
+        run: dnf install -y pipenv GIT
     - name: checkout code
         uses: actions/checkout@v2
     - name: Setup enviornment
