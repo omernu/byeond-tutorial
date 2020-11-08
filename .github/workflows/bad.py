@@ -1,1 +1,1 @@
-<<<This file is not a legal Python file>>>
+<<<this file is not a legal Python file>>>
